@@ -1,0 +1,73 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .top {
+    position: fixed;
+    top: auto;
+    left: 0;
+    right: 0;
+} */
+h1{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: end;
+    padding-right: 20%;
+}
+.menubar{
+    background-color: rgb(96, 96, 96);
+    text-decoration-line: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+a {color: white; text-decoration: none;}
+a:visited{color: white; text-decoration: none;}
+.bigbox{
+    background-color: rgb(141, 141, 141);
+}
+.mainbox{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h2{
+    margin: 0;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* justify-content: center; */
+    color:white;
+    background-color: rgb(56, 56, 56);
+    border: 5px solid rgb(56, 56, 56);
+}
+.string{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+.emoticon {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+.linkbox {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    padding: 10%
+}
